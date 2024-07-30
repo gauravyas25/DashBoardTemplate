@@ -1,0 +1,37 @@
+.Home{
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: #ffffff;
+
+    .homeContainer{
+        flex: 5;
+
+
+        .widgets, .charts{
+            display: flex;
+            padding: 10px;
+            gap: 5px;
+        }
+
+        .charts{
+            padding-top: 0px;
+        }
+
+
+        .listContainer{
+            box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-left: 10px;
+
+
+            .listTitle{
+                font-weight: 600;
+                color: gray;
+                
+            }
+        
+        }
+    }
+}

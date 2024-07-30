@@ -1,0 +1,95 @@
+.featured{
+    flex: 2;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.1);
+    padding: 10px;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: grey;
+        font-size: 8px;
+    }
+
+    .bottom{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            padding: 0;
+            margin: 2px;
+        }
+
+
+        .featuredChart{
+            height: 100px;
+            width: 100px;
+        }
+
+        .title{
+            font-weight: 500;
+            color: grey;
+        }
+
+        .amt{
+            font-size: 25px;
+        }
+
+        .desc{
+            font-size: 12px;
+            font-weight: 300;
+            color: gray;
+            text-align: center;
+        }
+
+
+        .summary{
+            margin-top: 5px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .item{
+                text-align: center;
+
+                .itemTitle{
+                    color: gray;
+                    font-size: 14px;
+                }
+
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    font-size: 15px;
+
+                    .icon{
+                        font-size: 14px;
+                        align-self: center;
+                    }
+
+
+                    &.positive{
+                        color: rgb(0, 163, 0);
+                    }
+
+                    &.negative{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}

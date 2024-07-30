@@ -1,0 +1,61 @@
+.sidebar{
+    background-color: rgb(43, 43, 43);
+    flex: 0.8 !important;
+    height: 200vh;
+    border-right: 1px solid lightslategray;
+
+    .top{
+        height: 35px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 25px;
+            color: blueviolet;
+            font-weight: bolder;
+        } 
+    }
+
+    .center{
+        padding: 2px;
+
+
+        ul{
+            margin: 2px;
+            padding: 2px;
+            list-style: none;
+        }
+
+        .title{
+            font-size: 14px;
+            font-weight: bold;
+            color: rgb(87, 87, 87);
+        }
+
+        
+
+        li{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: aliceblue;
+                color: blueviolet;
+                font-size: 22px;
+            }
+
+            .icon{
+                font-size: 20px; 
+                margin-right: 5px;
+
+                &:hover{
+                    font-size: 25px;
+                }
+            }
+            
+        }
+    }
+}
